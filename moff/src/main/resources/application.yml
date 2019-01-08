@@ -7,7 +7,7 @@ spring:
     #阿里云地址
     #url: jdbc:mysql://101.200.53.134:3306/anime?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&failOverReadOnly=false
     #本地地址关闭SSL
-    url: jdbc:mysql://172.16.35.80:3306/anime?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&failOverReadOnly=false
+    url: jdbc:mysql://172.16.35.80:3306/anime?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&failOverReadOnly=false&useSSL=false
     username: anime
     password: anime
     druid:
